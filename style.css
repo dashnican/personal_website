@@ -1,0 +1,63 @@
+* {
+    color: darkolivegreen;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-decoration: underline;
+    text-align: center;
+    vertical-align: middle;
+    background-color:whitesmoke;
+}
+
+p {
+    color: red;
+    background-color: lightblue;
+}
+
+h1 {
+    color: blue;
+}
+
+th {
+    font-size: 30px;
+    left: 40%;
+    right: 80%;
+}
+
+table {
+    top: 5%;
+}
+
+.hello_class {
+    color:black;
+
+}
+
+#name {
+    font-family: cursive;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    color: red;
+}
+
+#name:hover {
+    color:red;
+}
+
+#name:active {
+    color:blue;
+}
+
+a {
+    color:black;
+    align-items: start;
+}
+a:visited {
+    color:black;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    align-items: self-start;
+}
