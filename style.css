@@ -6,9 +6,12 @@
     vertical-align: middle;
 }
 
-p {
-    color: black;
-    background-color: lightblue;
+.socials_button {
+    background-color: transparent;
+    border-color: transparent;
+}
+.socials_button:hover {
+    background-color: tan
 }
 
 .text-primary {
@@ -28,6 +31,7 @@ table {
 
 .hello_class {
     color:black;
+    font-size: large;
 
 }
 
@@ -35,7 +39,6 @@ table {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 20px;
-    color: red;
 }
 
 #name:hover {
@@ -75,3 +78,18 @@ img {
     margin-right: 10px;
 }
 
+.navbar .nav-link:hover {
+    color: red !important;
+}
+
+.navbar .nav-link:hover i {
+    color: red !important;
+}
+
+footer a:hover {
+    color: red !important;
+}
+
+.about_me_start {
+    font-style: bold;
+}
